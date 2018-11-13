@@ -42,7 +42,7 @@ class FakeImg:
         self.alpha_background = alpha_background
         self.foreground_color = f"#{foreground_color}"
         self.alpha_foreground = alpha_foreground
-        self.text = text or f"{width} x {height}"
+        self.text = "Keine \n Vorschau" or f"{width} x {height}"
         self.font_name = font_name or "yanone"
         try:
             if int(font_size) > 0:
